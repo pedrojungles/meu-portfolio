@@ -96,3 +96,33 @@ footer {
   color: #999;
   font-size: 0.9rem;
 }
+#btn-tema {
+  margin-top: 20px;
+  padding: 10px 24px;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  background: transparent;
+  color: #fff;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+#btn-tema:hover {
+  background-color: #fff;
+  color: #1a1a2e;
+}
+
+body.dark {
+  background-color: #0f0f1a;
+  color: #e0e0e0;
+}
+
+body.dark section {
+  background-color: #1a1a2e;
+  color: #e0e0e0;
+}
+
+body.dark section h2 {
+  color: #e0e0e0;
+}
